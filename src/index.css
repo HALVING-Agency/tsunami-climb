@@ -3,7 +3,6 @@
 @layer base {
   html {
     scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     overscroll-behavior-y: none;
   }
@@ -22,4 +21,13 @@
 .hero-title {
   letter-spacing: -0.04em;
   line-height: 0.95;
+}
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
 }

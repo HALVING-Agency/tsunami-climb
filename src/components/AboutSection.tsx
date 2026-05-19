@@ -1,7 +1,7 @@
 import { useInView, anim } from '../hooks/useInView';
 
 const pillars = [
-  { label: 'Boulder', sub: 'zona libre' },
+  { label: 'Bloque', sub: 'zona libre' },
   { label: 'Vías de cuerda', sub: '15 metros' },
   { label: 'Silks aéreos', sub: 'nueva actividad' },
   { label: 'Escuela infantil', sub: '4 – 14 años' },

@@ -104,21 +104,21 @@ export default function Hero() {
         <div className="relative h-full w-full">
           <h1
             ref={word1Ref}
-            className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] left-4 md:left-10 top-[18%]"
+            className="hero-title absolute text-white font-medium text-[18vw] md:text-[13vw] left-4 md:left-10 top-[18%]"
             style={{ opacity: 0, transform: 'translateY(28px)' }}
           >
             climb
           </h1>
           <h1
             ref={word2Ref}
-            className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] right-4 md:right-10 top-[38%]"
+            className="hero-title absolute text-white font-medium text-[18vw] md:text-[13vw] right-4 md:right-10 top-[38%]"
             style={{ opacity: 0, transform: 'translateY(28px)' }}
           >
             your
           </h1>
           <h1
             ref={word3Ref}
-            className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] left-[18%] md:left-[28%] top-[58%]"
+            className="hero-title absolute text-white font-medium text-[18vw] md:text-[13vw] left-[18%] md:left-[28%] top-[58%]"
             style={{ opacity: 0, transform: 'translateY(28px)' }}
           >
             limits
