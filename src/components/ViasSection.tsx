@@ -161,7 +161,7 @@ export default function ViasSection() {
               ←
             </button>
             <div className="flex gap-1.5">
-              {levels.map((level, i) => (
+              {levels.map((_, i) => (
                 <div
                   key={i}
                   className="w-1.5 h-1.5 rounded-full transition-all duration-300"
